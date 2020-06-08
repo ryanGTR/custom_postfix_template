@@ -1,2 +1,2 @@
 .ae : assertEquals
-	NON_VOID [org.junit.Assert]  →  org.junit.Assert.assertEquals($expected$, $expr$)
+	NON_VOID [org.junit.Assert]  →  org.junit.Assert.assertEquals($expected$, $expr$)[USE_STATIC_IMPORTS]
